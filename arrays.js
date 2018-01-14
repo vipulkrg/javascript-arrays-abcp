@@ -4,8 +4,8 @@ console.log(chocolateBars)
 var inputarray = ["Philadelphia", "New York", "San Francisco"];
 var inputelement = "Felix";
 
-\\ console.log(inputarray)
-\\ console.log(inputelement)
+// console.log(inputarray)
+// console.log(inputelement)
 
 function addElementToBeginningOfArray(inputarray, inputelement) {
   newarray1 = [inputelement, ...inputarray];
