@@ -8,25 +8,25 @@ console.log(inputarray)
 console.log(inputelement)
 
 function addElementToBeginningOfArray(inputarray, inputelement) {
-  newarray = [inputelement, ...inputarray];
-  console.log(newarray)
+  newarray1 = [inputelement, ...inputarray];
+  console.log(newarray1)
 }
 
 function destructivelyAddElementToBeginningOfArray(inputarray, inputelement) {
   newarray = inputarray;
-  newarray[0] = inputelement;
-  console.log(newarray)
+  newarray2[0] = inputelement;
+  console.log(newarray2)
 }
 
 function addElementToEndOfArray(inputarray, inputelement) {
-  newarray = [...inputarray,inputelement];
-  console.log(newarray)
+  newarray3 = [...inputarray,inputelement];
+  console.log(newarray3)
 }
 
 function destructivelyAddElementToEndOfArray(inputarray, inputelement) {
-  newarray =  inputarray;
-  newarray[2] = inputelement;
-  console.log(newarray)
+  newarray4 =  inputarray;
+  newarray4[2] = inputelement;
+  console.log(newarray4)
 }
 
 addElementToBeginningOfArray(inputarray,inputelement)
