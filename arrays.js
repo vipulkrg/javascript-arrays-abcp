@@ -65,8 +65,7 @@ var inputelement = "Felix";
 
 function removeElementFromBeginningOfArray (inputarray) {
   newarray6 = inputarray;
-  newarray6.slice()
-  console.log(newarray6)
+  console.log(newarray6.slice(1))
   console.log(inputarray)
 }
 
