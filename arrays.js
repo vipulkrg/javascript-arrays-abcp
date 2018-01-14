@@ -77,7 +77,8 @@ var inputelement = "Felix";
 
 function destructivelyRemoveElementFromEndOfArray (inputarray) {
   newarray7 = inputarray;
-  console.log(newarray7
+  newarray7.pop()
+  console.log(newarray7)
 }
 
 destructivelyRemoveElementFromEndOfArray(inputarray)
