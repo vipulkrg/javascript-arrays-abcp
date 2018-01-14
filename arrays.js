@@ -71,5 +71,18 @@ function removeElementFromBeginningOfArray (inputarray) {
 
 removeElementFromBeginningOfArray (inputarray)
 
+var inputarray = ["Philadelphia", "New York", "San Francisco"];
+var inputelement = "Felix";
+
+
+function removeElementFromBeginningOfArray (inputarray) {
+  newarray6 = inputarray;
+  console.log(newarray6.slice(1))
+  console.log(newarray6)
+}
+
+removeElementFromBeginningOfArray (inputarray)
+
+
 
 
