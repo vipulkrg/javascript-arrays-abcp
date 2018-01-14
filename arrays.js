@@ -12,16 +12,23 @@ function addElementToBeginningOfArray(inputarray, inputelement) {
   console.log(newarray1)
 }
 
+addElementToBeginningOfArray(inputarray,inputelement)
+
+
 function destructivelyAddElementToBeginningOfArray(inputarray, inputelement) {
   newarray2 = inputarray;
   newarray2[0] = inputelement;
   console.log(newarray2)
 }
 
+destructivelyAddElementToBeginningOfArray(inputarray, inputelement)
+
 function addElementToEndOfArray(inputarray, inputelement) {
   newarray3 = [...inputarray,inputelement];
   console.log(newarray3)
 }
+
+addElementToEndOfArray(inputarray, inputelement)
 
 function destructivelyAddElementToEndOfArray(inputarray, inputelement) {
   newarray4 =  inputarray;
@@ -29,7 +36,4 @@ function destructivelyAddElementToEndOfArray(inputarray, inputelement) {
   console.log(newarray4)
 }
 
-addElementToBeginningOfArray(inputarray,inputelement)
-destructivelyAddElementToBeginningOfArray(inputarray, inputelement)
-addElementToEndOfArray(inputarray, inputelement)
 destructivelyAddElementToEndOfArray(inputarray, inputelement)
