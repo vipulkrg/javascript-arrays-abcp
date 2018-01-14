@@ -47,5 +47,14 @@ function destructivelyAddElementToEndOfArray(inputarray, inputelement) {
 
 destructivelyAddElementToEndOfArray(inputarray, inputelement)
 
+var inputarray = ["Philadelphia", "New York", "San Francisco"];
+var inputelement = "Felix";
+
+
+function destructivelyAddElementToBeginningOfArray(inputarray, inputelement) {
+  newarray2 = inputarray;
+  newarray2[0] = inputelement;
+  console.log(newarray2)
+}
 
 
