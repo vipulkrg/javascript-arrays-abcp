@@ -80,7 +80,7 @@ function destructivelyRemoveElementFromEndOfArray (inputarray) {
   console.log(newarray7.pop())
 }
 
-removeElementFromBeginningOfArray (inputarray)
+destructivelyRemoveElementFromEndOfArray(inputarray)
 
 
 
