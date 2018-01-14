@@ -59,3 +59,17 @@ function destructivelyRemoveElementFromBeginningOfArray(inputarray) {
 
 destructivelyRemoveElementFromBeginningOfArray(inputarray)
 
+var inputarray = ["Philadelphia", "New York", "San Francisco"];
+var inputelement = "Felix";
+
+
+function destructivelyRemoveElementFromBeginningOfArray(inputarray) {
+  newarray5 = inputarray;
+  newarray5.shift()
+  console.log(newarray5)
+}
+
+destructivelyRemoveElementFromBeginningOfArray(inputarray)
+
+
+
