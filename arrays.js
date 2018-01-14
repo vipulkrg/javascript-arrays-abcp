@@ -13,7 +13,7 @@ function addElementToBeginningOfArray(inputarray, inputelement) {
 }
 
 function destructivelyAddElementToBeginningOfArray(inputarray, inputelement) {
-  newarray = inputarray;
+  newarray2 = inputarray;
   newarray2[0] = inputelement;
   console.log(newarray2)
 }
