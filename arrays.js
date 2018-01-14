@@ -51,10 +51,10 @@ var inputarray = ["Philadelphia", "New York", "San Francisco"];
 var inputelement = "Felix";
 
 
-function destructivelyAddElementToBeginningOfArray(inputarray, inputelement) {
-  newarray2 = inputarray;
-  newarray2[0] = inputelement;
-  console.log(newarray2)
+function destructivelyRemoveElementFromBeginningOfArray(inputarray) {
+  newarray5 = inputarray;
+  newarray5.shift()
+  console.log(newarray5)
 }
 
 
