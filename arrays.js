@@ -90,8 +90,9 @@ var inputelement = "Felix";
 
 function removeElementFromEndOfArray(inputarray) {
   newarray8 = inputarray;
-  newarray7.pop()
-  console.log(newarray7)
+  newarray9 = newarray8.slice(0,newarray8.length -1);
+  console.log(newarray9)
+  console.log(newarray8)
 }
 
 removeElementFromEndOfArray(inputarray)
