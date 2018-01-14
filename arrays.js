@@ -57,4 +57,5 @@ function destructivelyRemoveElementFromBeginningOfArray(inputarray) {
   console.log(newarray5)
 }
 
+destructivelyRemoveElementFromBeginningOfArray(inputarray)
 
