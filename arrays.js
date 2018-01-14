@@ -88,11 +88,11 @@ var inputarray = ["Philadelphia", "New York", "San Francisco"];
 var inputelement = "Felix";
 
 
-function destructivelyRemoveElementFromEndOfArray (inputarray) {
-  newarray7 = inputarray;
+function removeElementFromEndOfArray(inputarray) {
+  newarray8 = inputarray;
   newarray7.pop()
   console.log(newarray7)
 }
 
-destructivelyRemoveElementFromEndOfArray(inputarray)
+removeElementFromEndOfArray(inputarray)
 
