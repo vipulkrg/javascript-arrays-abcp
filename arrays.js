@@ -63,13 +63,14 @@ var inputarray = ["Philadelphia", "New York", "San Francisco"];
 var inputelement = "Felix";
 
 
-function destructivelyRemoveElementFromBeginningOfArray(inputarray) {
-  newarray5 = inputarray;
-  newarray5.shift()
-  console.log(newarray5)
+function removeElementFromBeginningOfArray (inputarray) {
+  newarray6 = inputarray;
+  newarray6.slice()
+  console.log(newarray6)
+  console.log(inputarray)
 }
 
-destructivelyRemoveElementFromBeginningOfArray(inputarray)
+removeElementFromBeginningOfArray (inputarray)
 
 
 
